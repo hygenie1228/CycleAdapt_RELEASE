@@ -1,0 +1,31 @@
+DATASET:
+    test_list: ['Demo']
+    workers: 8
+
+HMR:
+    weight_path: 'data/base_data/pretrained_models/hmr_basemodel.pt'
+MD:
+    weight_path: 'data/base_data/pretrained_models/md_basemodel.pt'
+
+TRAIN:
+    total_cycle: 12
+    optimizer: 'adam'
+    scheduler: 'cosine'
+    batch_size: 16
+    lr: 5.0e-5
+    min_lr: 1.0e-6
+
+    # HMR loss configuration
+    pose_loss_weight: 1.0
+    shape_loss_weight: 0.001
+    proj_loss_weight: 0.1
+    joint_loss_weight: 0.0
+    prior_loss_weight: 0.0
+
+    # MD loss configuration
+    md_loss_weight: 1.0
+    
+TEST:
+    vis: True
+    batch_size: 32
+    
