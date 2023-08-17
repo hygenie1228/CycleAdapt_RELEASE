@@ -9,22 +9,11 @@ __pycache__/
 *.so
 
 # custom
-*.jpg
-*.out
-*.txt
-*.json
-*.mp4
-log/
-data/*/*.json
-data/*/*/*.json
-data/*/images
-data/*/annotations
-data/*/data
-data/*/imageFiles
 data/base_data
-data/preprocessed_data
 experiment
-debug
+data/*/*.json
+data/*/images
+data/*/imageFiles
 
 
 # Distribution / packaging

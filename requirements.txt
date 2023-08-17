@@ -1,0 +1,16 @@
+chumpy==0.70
+easydict==1.10
+imageio==2.31.1
+matplotlib==3.5.3
+opencv-python==4.8.0.74
+pycocotools==2.0.6
+pyglet==1.5.0
+pyrender==0.1.45
+PyYAML==6.0.1
+scikit-image==0.19.3
+scipy==1.7.3
+smplx==0.1.28
+torchgeometry==0.1.2
+tqdm==4.65.0
+trimesh==3.22.5
+warmup-scheduler==0.3
