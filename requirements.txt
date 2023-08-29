@@ -8,7 +8,7 @@ pyglet==1.5.0
 pyrender==0.1.45
 PyYAML==6.0.1
 scikit-image==0.19.3
-scipy==1.7.3
+scipy
 smplx==0.1.28
 torchgeometry==0.1.2
 tqdm==4.65.0
